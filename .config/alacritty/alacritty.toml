@@ -18,12 +18,13 @@ padding = {x = 3, y = 3}
 dynamic_padding = false
 
 [font]
-size = 11	
-normal = {family = "FiraCode Nerd Font Mono", style = "Regular"}
-bold = {family = "FiraCode Nerd Font Mono", style = "Bold"}
-italic = {family = "FiraCode Nerd Font Mono", style = "Italic"}
-bold_italic = {family = "FiraCode Nerd Font Mono", style = "Bold Italic"}
-offset = {x = 0, y = 0}
+size = 13
+normal = { family = "UbuntuMono Nerd Font Mono", style = "Regular" }
+bold = { family = "UbuntuMono Nerd Font Mono", style = "Bold" }
+italic = { family = "UbuntuMono Nerd Font Mono", style = "Italic" }
+bold_italic = { family = "UbuntuMono Nerd Font Mono", style = "Bold Italic" }
+offset = { x = 0, y = 3 }
+glyph_offset = { x = 0, y = 0 }
 
 [colors]
 [colors.primary]
@@ -67,10 +68,9 @@ hide_when_typing = false
 bindings = [
     { key = "V", mods = "Control|Shift", action = "Paste" },
     { key = "C", mods = "Control|Shift", action = "Copy" },
-	  # rus keys
-	  { key = "М", mods = "Control|Shift", action = "Paste" },
-	  { key = "С", mods = "Control|Shift", action = "Copy" }, 
-    
+	# rus keys
+	{ key = "М", mods = "Control|Shift", action = "Paste" },
+	{ key = "С", mods = "Control|Shift", action = "Copy" }, 
     { key = "Key0", mods = "Control", action = "ResetFontSize" },
     { key = "Equals", mods = "Control", action = "IncreaseFontSize" },
     { key = "Minus", mods = "Control", action = "DecreaseFontSize" },
