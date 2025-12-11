@@ -32,21 +32,22 @@ glyph_offset = { x = 0, y = 0 }
     background = "#222222"
 [colors.normal]
     black   = "#4e5257"
+    red     = "#a83232"
+    green   = "#4a9a42"
+    yellow  = "#b89414"
+    blue    = "#1f5c94"
+    magenta = "#943579"
+    cyan    = "#356891"
+    white   = "#d0d0d0"
+
+[colors.bright]
+    black   = "#5c6671"
     red     = "#d22b2b"
     green   = "#62bd5a"
     yellow  = "#e6bd19"
     blue    = "#2973bb"
     magenta = "#b94498"
     cyan    = "#4682b4"
-    white   = "#e4e4e7"
-[colors.bright]
-    black   = "#5c6671"
-    red     = "#f38ba8"
-    green   = "#58c94e"
-    yellow  = "#f9e2af"
-    blue    = "#89b4fa"
-    magenta = "#f5c2e7"
-    cyan    = "#7dcfff"
     white   = "#f4f4f5"
 
 [terminal.shell]
