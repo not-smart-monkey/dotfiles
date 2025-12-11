@@ -39,7 +39,6 @@ glyph_offset = { x = 0, y = 0 }
     magenta = "#943579"
     cyan    = "#356891"
     white   = "#d0d0d0"
-
 [colors.bright]
     black   = "#5c6671"
     red     = "#d22b2b"
@@ -49,6 +48,9 @@ glyph_offset = { x = 0, y = 0 }
     magenta = "#b94498"
     cyan    = "#4682b4"
     white   = "#f4f4f5"
+[colors.search]
+matches = { foreground = "#222222", background = "#e6bd19" }
+focused_match = { foreground = "#222222", background = "#62bd5a" }
 
 [terminal.shell]
 program = "/bin/bash"
@@ -69,9 +71,11 @@ hide_when_typing = false
 bindings = [
     { key = "V", mods = "Control|Shift", action = "Paste" },
     { key = "C", mods = "Control|Shift", action = "Copy" },
-	# rus keys
+
+	# Russian keys for action Paste/Copy
 	{ key = "М", mods = "Control|Shift", action = "Paste" },
 	{ key = "С", mods = "Control|Shift", action = "Copy" }, 
+
     { key = "Key0", mods = "Control", action = "ResetFontSize" },
     { key = "Equals", mods = "Control", action = "IncreaseFontSize" },
     { key = "Minus", mods = "Control", action = "DecreaseFontSize" },
