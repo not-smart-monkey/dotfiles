@@ -56,7 +56,7 @@ focused_match = { foreground = "#222222", background = "#62bd5a" }
 program = "/bin/bash"
 
 [selection]
-save_to_clipboard = true
+save_to_clipboard = false 
 
 [cursor]
 style={shape = "Block", blinking = "Always"}
